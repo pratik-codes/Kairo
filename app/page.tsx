@@ -24,8 +24,8 @@ const containerVariants = {
 };
 
 const itemVariants = {
-  hidden: { 
-    opacity: 0, 
+  hidden: {
+    opacity: 0,
     y: 20,
     scale: 0.95
   },
@@ -42,40 +42,42 @@ const itemVariants = {
 
 const Index = () => {
   return (
-    <motion.div 
-      className="bg-white dark:bg-black text-foreground"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-    >
-      <motion.div variants={itemVariants}>
-        <Header />
+    <div className="bg-white dark:bg-black">
+      <motion.div
+        className="text-foreground md:w-10/12 mx-auto"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.div variants={itemVariants}>
+          <Header />
+        </motion.div>
+        <motion.div variants={itemVariants}>
+          <Hero />
+        </motion.div>
+        <motion.div variants={itemVariants}>
+          <Features />
+        </motion.div>
+        <motion.div variants={itemVariants}>
+          <Integration />
+        </motion.div>
+        <motion.div variants={itemVariants}>
+          <IngestionBilling />
+        </motion.div>
+        <motion.div variants={itemVariants}>
+          <CommandLineTools />
+        </motion.div>
+        <motion.div variants={itemVariants}>
+          <FAQ />
+        </motion.div>
+        <motion.div variants={itemVariants}>
+          <CTA />
+        </motion.div>
+        <motion.div variants={itemVariants}>
+          <Footer />
+        </motion.div>
       </motion.div>
-      <motion.div variants={itemVariants}>
-        <Hero />
-      </motion.div>
-      <motion.div variants={itemVariants}>
-        <Features />
-      </motion.div>
-      <motion.div variants={itemVariants}>
-        <Integration />
-      </motion.div>
-      <motion.div variants={itemVariants}>
-        <IngestionBilling />
-      </motion.div>
-      <motion.div variants={itemVariants}>
-        <CommandLineTools />
-      </motion.div>
-      <motion.div variants={itemVariants}>
-        <FAQ />
-      </motion.div>
-      <motion.div variants={itemVariants}>
-        <CTA />
-      </motion.div>
-      <motion.div variants={itemVariants}>
-        <Footer />
-      </motion.div>
-    </motion.div>
+    </div>
   );
 };
 

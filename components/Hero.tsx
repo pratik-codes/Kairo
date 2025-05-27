@@ -53,8 +53,8 @@ const floatingAnimation = {
 
 const Hero = () => {
   return (
-    <motion.div 
-      className="container flex flex-col items-center justify-center gap-12 overflow-hidden rounded-3xl px-6 py-16 text-center md:py-24 relative z-10 border"
+    <motion.div
+      className="flex flex-col items-center justify-center gap-12 overflow-hidden rounded-3xl px-6 py-16 text-center md:py-24 relative z-10 border"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -63,16 +63,16 @@ const Hero = () => {
       <div className="absolute inset-0 -z-20">
         <AnimatedBeam />
       </div>
-      
+
       {/* Black Overlay for Text Visibility */}
       <div className="absolute inset-0 -z-10 bg-black/60"></div>
-      
+
       {/* Original Grid Background (now additional layer) */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-grid-small-black/[0.02] dark:bg-grid-small-white/[0.02]"></div>
       </div>
-      
-      <motion.div 
+
+      <motion.div
         className="flex items-center gap-2 px-4 py-2 rounded-full bg-black border border-white/20"
         variants={badgeVariants}
         animate={floatingAnimation}
@@ -85,9 +85,9 @@ const Hero = () => {
         </motion.div>
         <span className="text-sm text-white">Powered by Advanced AI</span>
       </motion.div>
-      
-      <motion.h1 
-        className="text-balance text-white text-5xl !leading-tight tracking-tight text-foreground md:px-0 md:text-7xl font-bold"
+
+      <motion.h3
+        className="text-white text-pretty text-4xl !leading-tight tracking-tight text-foreground md:px-0 md:text-7xl"
         variants={itemVariants}
       >
         <motion.span
@@ -97,7 +97,7 @@ const Hero = () => {
         >
           Your Personal AI Tutor
         </motion.span>
-        <motion.span 
+        <motion.span
           className="block text-foreground text-white"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -105,19 +105,19 @@ const Hero = () => {
         >
           That Never Sleeps
         </motion.span>
-        <motion.p 
-          className="mt-4 font-light text-pretty text-2xl leading-relaxed md:px-0 text-white max-w-3xl"
+        <motion.p
+          className="mt-4 font-light text-pretty text-xl leading-relaxed md:px-0 text-white max-w-3xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.8 }}
         >
-          Transform how you learn with Kairo - an AI-powered tutor that creates custom animations, 
+          Transform how you learn with Kairo - an AI-powered tutor that creates custom animations,
           interactive recall tools, and personalized explanations tailored to your learning style and pace.
         </motion.p>
-      </motion.h1>
-      
-      <motion.div 
-        className="flex flex-col sm:flex-row items-center gap-4"
+      </motion.h3>
+
+      <motion.div
+        className="flex flex-col sm:flex-row items-center gap-2"
         variants={itemVariants}
       >
         <motion.div
@@ -137,7 +137,7 @@ const Hero = () => {
             </div>
           </Button>
         </motion.div>
-        
+
         <motion.div
           whileHover={{ scale: 1.05, y: -2 }}
           whileTap={{ scale: 0.95 }}
@@ -154,8 +154,8 @@ const Hero = () => {
           </Button>
         </motion.div>
       </motion.div>
-      
-      <motion.div 
+
+      <motion.div
         className="flex items-center gap-8 text-sm text-white/60"
         variants={itemVariants}
       >
@@ -164,7 +164,7 @@ const Hero = () => {
           { icon: Video, text: "Custom Animations" },
           { icon: Brain, text: "Personalized Learning" }
         ].map((item, index) => (
-          <motion.div 
+          <motion.div
             key={item.text}
             className="flex items-center gap-2"
             whileHover={{ scale: 1.1, y: -2 }}
