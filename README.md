@@ -1,32 +1,40 @@
-# Next.js 15 Starter Kit
+# Kairo - AI-Powered Personal Tutor
 
-A modern, feature-rich starter template for building production-ready applications with Next.js 15, Tailwind CSS, and TypeScript.
+Your personal AI tutor that never sleeps. Transform how you learn with custom animations, interactive content, and personalized explanations tailored to your learning style and pace.
 
-![Next Starter Kit](https://dwdwn8b5ye.ufs.sh/f/MD2AM9SEY8GucGJl7b5qyE7FjNDKYduLOG2QHWh3f5RgSi0c)
+![Kairo AI Tutor](https://dwdwn8b5ye.ufs.sh/f/MD2AM9SEY8GucGJl7b5qyE7FjNDKYduLOG2QHWh3f5RgSi0c)
 
 ## Features
 
-### Core Technologies
+### Core Learning Experience
+- 🧠 **AI-Powered Tutoring** - Personalized explanations adapted to your knowledge level
+- 🎨 **Custom Animations** - Visual learning through interactive animations and content
+- 💬 **Natural Conversation** - Chat with Kairo like a human tutor
+- 📚 **Any Subject Support** - From mathematics to history, languages to professional skills
+- 🔄 **Spaced Repetition** - Optimized retention and recall timing
+- 📱 **Kairo Shorts** - Bite-sized educational videos (30-60 seconds) for learning while scrolling
+
+### Platform Integrations
+- 📝 **Notion Integration** - Transform your notes into interactive learning experiences
+- 🗂️ **Google Docs Support** - Import and enhance your existing documents
+- 🔗 **Obsidian Connectivity** - Leverage your knowledge graphs for dynamic learning paths
+- 🔄 **Cross-Platform Sync** - Unified dashboard for all your content
+
+### Technology Stack
 - ⚡ **Next.js 15** - The latest version with App Router
 - 🎨 **Tailwind CSS** - Utility-first CSS framework
 - 📘 **TypeScript** - Type-safe code
-- 🔒 **Authentication** - Clerk integration with persistent authorization toggle
+- 🔒 **Authentication** - Clerk integration with persistent authorization
 - 🎭 **Shadcn/ui** - Beautiful and accessible components
 - 💾 **Convex DB** - Real-time database with built-in file storage and serverless functions
 - 💳 **Polar.sh** - Open-source solution for managing subscriptions and payments
 
 ### Performance Optimizations
-- 🚀 **Route Prefetching** - Instant page transitions for dashboard, playground, and auth pages
+- 🚀 **Route Prefetching** - Instant page transitions
 - 🖼️ **Optimized Images** - Eager loading for critical images
-- 🌓 **Dark/Light Mode** - System-aware theme switching with custom gradients
+- 🌓 **Dark/Light Mode** - System-aware theme switching
 - 📱 **Responsive Design** - Mobile-first approach
 - 🔄 **Real-time Updates** - Powered by Convex DB's real-time capabilities
-
-### Developer Experience
-- 🧩 **Component Library** - Pre-built, customizable components
-- 🎮 **AI Playground** - Built-in AI chat interface
-- 📊 **Dashboard Template** - Ready-to-use admin interface with subscription management
-- 🔍 **SEO Optimized** - Meta tags and sitemap generation
 
 ## Convex DB Integration
 
@@ -79,17 +87,18 @@ OPENAI_API_KEY=
 bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see your application.
+Open [http://localhost:3000](http://localhost:3000) to start your learning journey with Kairo.
 
 ## Project Structure
 
 ```
 ├── app/
 │   ├── (auth)/         # Authentication routes
-│   ├── (marketing)/    # Marketing pages
+│   ├── (marketing)/    # Marketing and landing pages
+│   ├── (pages)/        # Additional pages (waitlist, etc.)
 │   ├── api/           # API routes
-│   ├── dashboard/     # Dashboard pages
-│   └── playground/    # AI Playground
+│   ├── dashboard/     # User dashboard
+│   └── playground/    # AI chat playground
 ├── components/
 │   ├── homepage/     # Landing page components
 │   ├── shared/       # Shared UI components
@@ -103,6 +112,20 @@ Open [http://localhost:3000](http://localhost:3000) to see your application.
 └── styles/          # Global styles
 ```
 
+## Key Features Explained
+
+### Personalized Learning
+Kairo analyzes your learning patterns, strengths, and preferences to create a truly personalized tutoring experience. Ask about any concept and get clear, conversational explanations adapted to your knowledge level.
+
+### Interactive Content
+Transform static notes into dynamic learning experiences with custom animations, visual explanations, and interactive recall tools that make complex concepts easier to understand.
+
+### Kairo Shorts
+Beat brain rot with bite-sized learning! AI-generated short-form videos (30-60 seconds) based on your study history and interests, turning your social media scrolling into productive learning time.
+
+### Platform Integration
+Connect your existing tools like Notion, Google Docs, and Obsidian. Kairo transforms your notes and documents into interactive learning experiences while maintaining your existing workflow.
+
 ## Available Scripts
 
 - `bun run dev` - Start development server
@@ -113,7 +136,7 @@ Open [http://localhost:3000](http://localhost:3000) to see your application.
 
 ## Sponsors and Supporters
 
-Special thanks to [Convex](https://www.convex.dev/) for their sponsorship and support in making this starter kit possible. Their real-time database and file storage solutions have been instrumental in creating a powerful foundation for modern web applications.
+Special thanks to [Convex](https://www.convex.dev/) for their sponsorship and support in making this AI-powered learning platform possible. Their real-time database and file storage solutions have been instrumental in creating a seamless learning experience.
 
 ## Contributing
 
@@ -129,4 +152,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you find this template helpful, please give it a ⭐️ on GitHub!
+If you find Kairo helpful for your learning journey, please give it a ⭐️ on GitHub!
+
+---
+
+**Ready to transform your learning experience?** Join thousands of learners who are already experiencing the future of education with Kairo's revolutionary AI-powered tutoring platform.
