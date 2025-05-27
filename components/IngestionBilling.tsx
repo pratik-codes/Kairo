@@ -62,7 +62,7 @@ const IngestionBilling = () => {
       description: "Auto-generated educational shorts based on your learning history and curriculum.",
       features: [
         "Adaptive difficulty based on your progress",
-        "Covers topics you're currently studying", 
+        "Covers topics you&apos;re currently studying", 
         "Interactive quizzes and challenges",
         "Spaced repetition for better retention"
       ],
@@ -171,7 +171,7 @@ const IngestionBilling = () => {
           {/* Study Goals */}
           <div className="rounded-2xl bg-secondary border border-border p-4">
             <div className="flex items-center justify-between mb-3">
-              <h3 className="font-medium text-secondary-foreground">This Week's Goals</h3>
+              <h3 className="font-medium text-secondary-foreground">This Week&apos;s Goals</h3>
               <ChevronRight className="h-4 w-4 text-muted-foreground" />
             </div>
             <div className="space-y-2">

@@ -62,7 +62,7 @@ const FAQ = () => {
     },
     {
       question: "What are Kairo Shorts?",
-      answer: "Kairo Shorts are bite-sized educational videos (30-60 seconds) that transform your social media scrolling into productive learning time. They're automatically generated based on your study history and interests, helping you learn while you scroll."
+      answer: "Kairo Shorts are bite-sized educational videos (30-60 seconds) that transform your social media scrolling into productive learning time. They&apos;re automatically generated based on your study history and interests, helping you learn while you scroll."
     },
     {
       question: "How does Kairo personalize my learning experience?",
@@ -70,14 +70,14 @@ const FAQ = () => {
     },
     {
       question: "What subjects does Kairo support?",
-      answer: "Kairo supports virtually any subject - from mathematics and science to history, languages, and professional skills. The AI can generate explanations and visual content for any topic you're studying or curious about."
+      answer: "Kairo supports virtually any subject - from mathematics and science to history, languages, and professional skills. The AI can generate explanations and visual content for any topic you&apos;re studying or curious about."
     },
     {
       question: "Is Kairo free to use?",
       answer: "Kairo offers a free tier that includes basic features like personalized explanations and limited custom animations. Premium features like unlimited content generation, advanced integrations, and Kairo Shorts require a subscription."
     },
     {
-      question: "How accurate are Kairo's explanations and content?",
+      question: "How accurate are Kairo&apos;s explanations and content?",
       answer: "Kairo uses state-of-the-art AI models trained on vast educational datasets. While highly accurate, we always recommend cross-referencing important information with authoritative sources, especially for academic or professional purposes."
     },
     {

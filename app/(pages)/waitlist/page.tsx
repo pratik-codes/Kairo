@@ -70,11 +70,11 @@ export default function WaitlistPage() {
               </motion.div>
               
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                You're In! 🎉
+                You&apos;re In! 🎉
               </h1>
               
               <p className="text-lg text-muted-foreground mb-8">
-                Welcome to the Kairo waitlist! We'll send you an email as soon as early access is available.
+                Welcome to the Kairo waitlist! We&apos;ll send you an email as soon as early access is available.
               </p>
               
               <Button 

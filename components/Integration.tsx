@@ -3,6 +3,7 @@ import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, FileText, BookOpen, Folder } from "lucide-react";
+import Image from "next/image";
 
 type Platform = "notion" | "googledocs" | "obsidian" | "allplatforms";
 
@@ -213,16 +214,16 @@ const Integration = () => {
                   </div>
                   <div className="font-mono text-sm text-secondary-foreground">
                     <div className="mb-2">
-                      <span className="text-muted-foreground">// Universal content import</span>
+                      <span className="text-muted-foreground">{/* Universal content import */}</span>
                     </div>
                     <div className="mb-2">
-                      <span className="text-foreground">import</span> <span className="text-secondary-foreground">{'{ KairoClient }'}</span> <span className="text-foreground">from</span> <span className="text-secondary-foreground">'@kairo/sdk'</span>
+                      <span className="text-foreground">import</span> <span className="text-secondary-foreground">{'{ KairoClient }'}</span> <span className="text-foreground">from</span> <span className="text-secondary-foreground">&apos;@kairo/sdk&apos;</span>
                     </div>
                     <div className="mb-4">
                       <span className="text-foreground">const</span> <span className="text-secondary-foreground">kairo = </span><span className="text-foreground">new</span> <span className="text-secondary-foreground">KairoClient()</span>
                     </div>
                     <div className="mb-2">
-                      <span className="text-muted-foreground">// Connect any platform</span>
+                      <span className="text-muted-foreground">{/* Connect any platform */}</span>
                     </div>
                     <div className="mb-2">
                       <span className="text-foreground">const</span> <span className="text-secondary-foreground">content = </span><span className="text-foreground">await</span> <span className="text-secondary-foreground">kairo.import(</span>
@@ -240,10 +241,12 @@ const Integration = () => {
                 </>
               ) : (
                 <div className="flex items-center justify-center h-full">
-                  <img 
+                  <Image 
                     src={currentPlatform.image} 
                     alt={`${currentPlatform.title} Preview`}
                     className="w-full h-full object-cover rounded-lg"
+                    width={500}
+                    height={300}
                   />
                 </div>
               )}

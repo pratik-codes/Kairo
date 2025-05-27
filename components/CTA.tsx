@@ -80,7 +80,7 @@ const CTA = () => {
                                    transition={{ duration: 0.6, delay: 0.6 }}
                               >
                                    Join thousands of learners who are already experiencing the future of education.
-                                   Be among the first to access Kairo's revolutionary AI-powered learning platform.
+                                   Be among the first to access Kairo&apos;s revolutionary AI-powered learning platform.
                               </motion.p>
 
                               <motion.div

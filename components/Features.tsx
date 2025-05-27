@@ -361,15 +361,15 @@ const Features = () => {
               
               <div className="flex flex-col gap-y-2 rounded-lg border border-border bg-secondary p-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-secondary-foreground">"Explain quantum physics like I'm 10"</span>
+                  <span className="text-sm text-secondary-foreground">&quot;Explain quantum physics like I&apos;m 10&quot;</span>
                   <span className="text-sm text-secondary-foreground">✓ Adapted</span>
                 </div>
                 <div className="flex items-center justify-between border-t border-border pt-2">
-                  <span className="text-sm text-muted-foreground">"Can you give me an analogy?"</span>
+                  <span className="text-sm text-muted-foreground">&quot;Can you give me an analogy?&quot;</span>
                   <span className="text-sm text-muted-foreground">2s ago</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-muted-foreground">"Show me the math behind it"</span>
+                  <span className="text-sm text-muted-foreground">&quot;Show me the math behind it&quot;</span>
                   <span className="text-sm text-muted-foreground">5s ago</span>
                 </div>
               </div>
