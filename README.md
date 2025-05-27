@@ -2,7 +2,6 @@
 
 Your personal AI tutor that never sleeps. Transform how you learn with custom animations, interactive content, and personalized explanations tailored to your learning style and pace.
 
-![Kairo AI Tutor](https://dwdwn8b5ye.ufs.sh/f/MD2AM9SEY8GucGJl7b5qyE7FjNDKYduLOG2QHWh3f5RgSi0c)
 
 ## Features
 
